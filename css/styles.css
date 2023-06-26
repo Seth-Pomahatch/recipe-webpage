@@ -1,0 +1,28 @@
+* {
+    color: white;
+    background-color: black;
+}
+
+a {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+body {
+    font-size: 20px;
+}
+
+img {
+    display: block;
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center {
+    text-align: center;
+}
