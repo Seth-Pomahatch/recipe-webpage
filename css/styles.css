@@ -1,8 +1,3 @@
-* {
-    color: white;
-    background-color: black;
-}
-
 a {
     color: blue;
 }
@@ -13,12 +8,25 @@ a:visited {
 
 body {
     font-size: 2rem;
+    color: white;
+    background-color: black;
 }
 
 img {
     height: auto;
     width: auto;
 }
+
+/* ul {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+li {
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+} */
 
 .imagecenter {
     display: block;
