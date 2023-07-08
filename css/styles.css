@@ -1,5 +1,5 @@
 html{
-    height: 100%;
+    min-height: 100%;
 }
 
 * {
@@ -7,17 +7,19 @@ html{
 }
 
 a {
-    color: blue;
+    text-decoration: none;
+    color: rgb(0, 170, 255);
 }
 
 a:visited {
-    color: purple;
+    color: rgb(140, 0, 255);
+    /* color: rgb(255, 60, 0); */
 }
 
 body {
     font-size: 2rem;
     color: white;
-    background: linear-gradient(180deg, rgb(34, 34, 34) 10%, rgb(0, 0, 0) 100%);
+    background: linear-gradient(180deg, rgb(40, 40, 40) 30%, rgb(0, 0, 0) 90%);
 }
 
 img {
